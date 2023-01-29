@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+}
+body{
+    --main-color:#283526;
+    --primary-color:#888888;
+    --button-background:rgb(247, 255, 253);
+    --primary-button-background:#fe7649;
+    --background-color: #e2efff;
+}
+h1,
+h2{
+    font-family: Avenir TL Std;
+    color: var(--main-color);
+}
+h3,
+h4{
+    font-family: muli;
+    color: var(--main-color);
+}
+h3{
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+p,
+a,
+li,
+button{
+    font-family: muli;
+    color: var(--primary-color);
+}
+p{
+    font-size: 1.8rem;
+    line-height: 4rem;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+button{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------Ours manu style---------- */
+
+header{
+    padding: 0 10rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+}
+header nav .logo img{
+    width: 8rem;
+    height: 5.5rem;
+}
+header nav .left-site-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: #e2efff;
+}
+header nav .left-site-manu .sub-manu{
+    height: inherit;
+    display: flex;
+}
+header nav .left-site-manu .sub-manu a{
+    margin-right: 2rem;
+}
+header nav .left-site-manu .sub-manu a li{
+   font-size: 2rem;
+   line-height: 3.6rem;
+   text-transform: capitalize;
+   transition: all 0.2s;
+}
+
+header nav .left-site-manu .sub-manu a li:hover{
+    background-color:var(--button-background);
+    border-radius: 10px;
+}
+
+
+/* ----------------nav section right side style------ */
+
+header .right-site-manu{
+    width: 50%;
+    display: flex;
+    justify-content:end;
+}
+header .right-site-manu .sub-manu{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .right-site-manu .sub-manu a{
+    margin-right: 2rem;
+    padding: 0.7rem 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+header .right-site-manu .sub-manu button{
+    padding: 0.5rem 2rem;
+    background-color: var(--button-background);
+    position: relative;
+    z-index: 9;
+}
+header .right-site-manu .sub-manu button:hover{
+    color: rgb(7, 6, 6);
+}
+header .right-site-manu .sub-manu a li:hover{
+    color: rgb(7, 6, 6);
+}
+
+/* ---------------------hero-box css style start----------  */
+
+.main-hero-section{
+    padding: 0 10rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}  
+.main-hero-section .left-hero-site .button-group img{
+    width: 13.5;
+    height: 4rem;
+}
+.main-hero-section .left-hero-site h1{
+    width: 50rem;
+    font-size: 7rem;
+    line-height: 9rem;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+
+}
+.main-hero-section .left-hero-site p{
+    width: 35rem;
+    margin-bottom: 6rem;
+    
+}
+.main-hero-section .left-hero-site a img{
+    margin-left: 1rem;
+}
+
+/* ---------------------hero-box right side css style start----------  */
+
+
+.main-hero-section .right-hero-site{
+    width: 50%;
+    height: 100vh;
+    background-color: var(--background-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    border-radius: 30px 0px 0 95px;
+}
+
+.main-hero-section .right-hero-site img{
+    width: 100rem;
+    height: 90rem;
+    margin-right: 40rem;
+}
+
+
+/*----------------- our section-two left-side css start--------- */
+
+.common-section{
+    width: 100%;
+    height: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+    padding: 0 10rem;
+}
+.common-section .left-side{
+    width: inherit;
+    height: inherit;
+}
+.common-section .left-side figure{
+    width: 20rem;
+    height: 65rem;
+    background: #e2efff;
+    border-radius: 20px;
+}
+   
+.common-section .left-side img{
+    width: 40rem;
+    height: 60rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    opacity: 0.7;
+}
+
+/*----------------- our section-two right-side css start--------- */
+
+.common-section .right-side{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.common-section .right-side h2{
+    width: 40rem;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 6rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+
+}
+.common-section .right-side p{
+    width: 40rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.common-section .right-side .common-button{
+    background-color: var(--primary-button-background);
+    color: #fff;
+}
+.common-section .right-side .common-button-normal{
+    color: var(--main-color);
+    background: transparent;
+}
+.common-section .right-side .common-button:hover{
+    background-color: #578151;
+    color: #fff;
+}
+.common-section .right-side .common-button-normal:hover{
+    background-color: #578151;
+    color: #fff;
+}
+
+/* --------our 3rd section css atyle start-------- */
+
+.goals{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 3px; 
+    background: var(--background-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.goals h1{
+    font-weight: 600;
+    font-size: 45px;
+    font-style: bold;
+}
+.goals h4{
+    width: 30rem;
+    line-height: 5rem;
+    font-size: 20px;
+}
+.goals p{
+    margin: auto;
+    padding: 10px;
+}
+.goals .row{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.goals-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 30px; 
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(253, 247, 247, 0.5);
+    transition: 0.5s;
+}
+.goals-col img{
+    width: 6rem;
+    height: 6rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+.goals-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+
+/* ----------start our forth section css--------- */
+
+#forth-section .right-side h2{
+    width: 50rem;
+    
+}
+#forth-section .left-side h2{
+    width: 40rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    right: 17rem;
+    color: #fe7649;
+    
+}
+
+#forth-section .left-side img{
+    display: flex;
+    position: relative;
+    justify-self: ;
+    
+}
+
+/* --------- fifth section css start------ */
+
+#fifth-section .left-side{
+    background: #fafafc;
+    display: flex;
+    position: relative;
+}
+#fifth-section .left-side img{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+}
