@@ -154,6 +154,7 @@ header .right-site-manu .sub-manu a li:hover{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10rem;
+    background-color: #e2efff;
 }  
 .main-hero-section .left-hero-site .button-group img{
     width: 13.5;
@@ -211,10 +212,10 @@ header .right-site-manu .sub-manu a li:hover{
 }
 .common-section .left-side{
     width: inherit;
-    height: inherit;
+    height: 64rem;
 }
 .common-section .left-side figure{
-    width: 20rem;
+    width: 15rem;
     height: 65rem;
     background: #e2efff;
     border-radius: 20px;
@@ -224,7 +225,7 @@ header .right-site-manu .sub-manu a li:hover{
     width: 40rem;
     height: 60rem;
     border-radius: 2rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 2.5rem;
     opacity: 0.7;
 }
@@ -233,11 +234,12 @@ header .right-site-manu .sub-manu a li:hover{
 
 .common-section .right-side{
     width: inherit;
-    height: inherit;
+    height: 64rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+   
 }
 .common-section .right-side h2{
     width: 40rem;
@@ -246,6 +248,7 @@ header .right-site-manu .sub-manu a li:hover{
     font-weight: bold;
     line-height: 6rem;
     margin-bottom: 3rem;
+    margin-left: 2rem;
     text-transform: capitalize;
 
 }
@@ -275,7 +278,7 @@ header .right-site-manu .sub-manu a li:hover{
 /* --------our 3rd section css atyle start-------- */
 
 .goals{
-    width: 80%;
+    width:85%;
     margin: auto;
     border-radius: 10px;
     padding-top: 3px; 
@@ -324,38 +327,28 @@ header .right-site-manu .sub-manu a li:hover{
 
 /* ----------start our forth section css--------- */
 
-#forth-section .right-side h2{
-    width: 50rem;
-    
+#forth-section .left-side{
+    background-color: #e0e3e5;
+    text-align: center;
 }
+
 #forth-section .left-side h2{
-    width: 40rem;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
     margin-top: 5rem;
     font-size: 30px;
-    right: 17rem;
-    color: #fe7649;
-    
+    color: #fe7649;  
 }
 
 #forth-section .left-side img{
-    display: flex;
-    position: relative;
-    justify-self: ;
-    
+    margin:5px; 
 }
 
-/* --------- fifth section css start------ */
+/* --------- five-section css start------ */
 
-#fifth-section .left-side{
-    background: #fafafc;
-    display: flex;
-    position: relative;
+#five-section .left-side{
+    margin: 0;
+    top: 0;
 }
-#fifth-section .left-side img{
+#five-section .left-side img{
     display: flex;
     position: absolute;
     justify-content: center;
