@@ -1,11 +1,5 @@
-@media screen(max-width:700px) {
-    .left-site-manu .sub-manu{
-        position: absolute;
-        top: 0;
-
-
-    }
-    header{
-        padding: 0 2rem;
+@media(max-width:700px){
+    header nav{
+        background-color: blue;
     }
 }

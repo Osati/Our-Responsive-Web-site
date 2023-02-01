@@ -427,3 +427,40 @@ footer .footer-manu a{
 footer .footer-div-5{
     font-size: 1.5rem;
 }
+
+/* --------- 7th footer-section css start------ */
+
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.icon-bar a{
+    width: 18rem;
+    background: #f52121;
+    color: rgb(1, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 0.7rem;
+    transition: all 0.5s linear;
+    transform: translateX(-14.5rem);
+}
+.icon-bar a:hover{
+    transform: translateX(0);
+}
+icon-bar a.fab{
+    padding-left: 1rem
+    font-size: 3rem;
+    animation: letszoom 3s linear alternate reverse infinite;
+}
+@keyframes letszoom{
+    form{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}
