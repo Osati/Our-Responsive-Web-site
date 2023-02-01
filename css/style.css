@@ -361,25 +361,42 @@ header .right-site-manu .sub-manu a li:hover{
 }
 
 /* --------- five-section css start------ */
-
 #five-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#five-section .right-side{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr; 
 }
-#five-section .right-side h3{
-    font-size: 35px;
-    width: 40rem;
-    margin: 4rem 14rem 0rem 8rem;
-    font-weight: 600;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+#five-section .right-side-top{
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 60%;
 }
-#five-section .right-side h4{
-    margin: 2rem 14rem 0rem 8rem;
+
+#five-section .right-side-top h3{
+    font-size: 30px;
+    font-height: 500;
+    line-height: 5rem;
+    
+}
+.right-side-bottom{
+    margin-top: 6rem;
+}
+.right-side-bottom h4{
+    margin-left: 5rem;
     font-size: 20px;
+  
 }
-#five-section .right-side p{
-    margin: 2rem 14rem 0rem 8rem;
+.right-side-bottom p{
+    line-height: 3rem;
 }
+
+
 .fa{
     color: #f6480f;
 }
