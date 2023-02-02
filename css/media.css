@@ -1,5 +1,24 @@
-@media(max-width:700px){
-    header nav{
-        background-color: blue;
+@media(max-width:770px){
+     header,
+    .goals,
+    .main-hero-section,
+    .common-section{
+        padding: 0 5rem;
     }
+    header nav{
+        padding-top: 1rem;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    header nav .left-side-manu{
+        width: 100%;
+        display: block;
+        order: 2;
+    }
+    header nav .left-side-manuimg{
+        width: 100%;
+        display: block;
+    }
+   
 }

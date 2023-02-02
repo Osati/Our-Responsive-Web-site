@@ -13,14 +13,15 @@
 <body>
     <header>
         <nav>
-            <!-- left site manu-bar -->
-            <div class="left-site-manu">
+            <!-- left side manu-bar -->
+            <div class="left-side-manu">
                 <div class="logo-div">
                     <a href="#">
                         <img src="images/logo.png" alt="logo">
                     </a>
                 </div>
-                <div class="sub-manu">
+                <div class="sub-manu" id="sub-link">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideManu()"></i>
                     <a href="#">
                         <li>Home</li>
                     </a>
@@ -34,9 +35,10 @@
                         <li>Tips</li>
                     </a>   
                 </div>
+                <i class="fa fa-bars" onclick="showManu()"></i>
             </div>
-            <!-- right site manu-bar -->
-            <div class="right-site-manu">
+            <!-- right side manu-bar -->
+            <div class="right-side-manu">
                 <div class="sub-manu">
                     <a href="#">
                         <li>Logo in</li>
@@ -53,7 +55,7 @@
 
         <!-- left site style start -->
 
-        <div class="left-hero-site">
+        <div class="left-hero-side">
             <h1>Healthy Living Simplified</h1>
             <p>Take control of ours goals.Track calorics brackdown
             ingradients. Congratulation on taking a forward step to get in shine in lives
@@ -68,9 +70,9 @@
             </div>
         </div>
 
-        <!-- right site style start -->
+        <!-- right side style start -->
 
-        <div class="right-hero-site">
+        <div class="right-hero-side">
             <img src="images/background.png" alt="">
             
         </div>
@@ -221,21 +223,41 @@
     <!-- -------7th-section start -------- -->
     
     <div class="icon-bar">
-        <a href="#" class="facebook" target="anis">Click here to visit
-            <i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="facebook" target="anis">Click here to visit 
+            <i class="fa-brands fa-facebook"></i>
+        </a>
     
     
-        <a href="#" class="telegram" target="anis">Click here to visit
-            <i class="fa-brands fa-telegram"></i></a>
+        <a href="#" class="telegram" target="anis">Click here to visit 
+            <i class="fa-brands fa-telegram"></i>
+        </a>
     
     
-        <a href="#" class="instagram" target="anis">Click here to visit
-            <i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="instagram" target="anis">Click here to visit 
+            <i class="fa-brands fa-instagram"></i>
+        </a>
    
     
-        <a href="#" class="youtube" target="anis">Click here to visit
-            <i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="youtube" target="anis">Click here to visit 
+            <i class="fa-brands fa-youtube"></i>
+        </a>
     </div>
+
+    <!-- ---------javascript--------- -->
+
+    <script>
+         var sub-link = document.getElementById("sub-link");
+        function showMenu(){
+            sub-link.style.right="0";
+            sub-link.style.display="block";
+        }
+        function hideMenu(){
+            sub-link.style.right="-200px";
+            sub-link.style.display="none";
+        }
+
+
+    </script>
     
 </body>
 </html>

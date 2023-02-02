@@ -81,48 +81,54 @@ header nav{
     height: 5.5rem;
 }
 
-header nav .left-site-manu{
+header nav .left-side-manu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
     background-color: #e2efff;
 }
-header nav .left-site-manu .sub-manu{
+header nav .left-side-manu .sub-manu{
     height: inherit;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-header nav .left-site-manu .sub-manu a{
+header nav .left-side-manu .sub-manu a{
     margin-right: 2rem;
 }
-header nav .left-site-manu .sub-manu a li{
+header nav .left-side-manu .sub-manu a li{
    font-size: 2rem;
    line-height: 3.6rem;
    text-transform: capitalize;
    transition: all 0.2s;
 }
 
-header nav .left-site-manu .sub-manu a li:hover{
+header nav .left-side-manu .sub-manu a li:hover{
     background-color:var(--button-background);
     border-radius: 10px;
+}
+header nav .left-side-manu .fa{
+    display: none;
+    color: black;
 }
 
 
 /* ----------------nav section right side style------ */
 
-header .right-site-manu{
+header .right-side-manu{
     width: 50%;
     display: flex;
     justify-content:end;
 }
-header .right-site-manu .sub-manu{
+header .right-side-manu .sub-manu{
     width: 100%;
     height: inherit;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-header .right-site-manu .sub-manu a{
+header .right-side-manu .sub-manu a{
     margin-right: 2rem;
     padding: 0.7rem 2rem;
     background-color: rgba(255, 255, 255, 0.5);
@@ -132,16 +138,16 @@ header .right-site-manu .sub-manu a{
     position: relative;
     z-index: 9;
 }
-header .right-site-manu .sub-manu button{
+header .right-side-manu .sub-manu button{
     padding: 0.5rem 2rem;
     background-color: var(--button-background);
     position: relative;
     z-index: 9;
 }
-header .right-site-manu .sub-manu button:hover{
+header .right-side-manu .sub-manu button:hover{
     color: rgb(7, 6, 6);
 }
-header .right-site-manu .sub-manu a li:hover{
+header .right-side-manu .sub-manu a li:hover{
     color: rgb(7, 6, 6);
 }
 
@@ -156,11 +162,11 @@ header .right-site-manu .sub-manu a li:hover{
     align-items: center;
     margin-bottom: 10rem;
 }  
-.main-hero-section .left-hero-site .button-group img{
+.main-hero-section .left-hero-side .button-group img{
     width: 13.5;
     height: 4rem;
 }
-.main-hero-section .left-hero-site h1{
+.main-hero-section .left-hero-side h1{
     width: 50rem;
     font-size: 7rem;
     line-height: 9rem;
@@ -168,19 +174,19 @@ header .right-site-manu .sub-manu a li:hover{
     margin-top: 6rem;
 
 }
-.main-hero-section .left-hero-site p{
+.main-hero-section .left-hero-side p{
     width: 35rem;
     margin-bottom: 6rem;
     
 }
-.main-hero-section .left-hero-site a img{
+.main-hero-section .left-hero-side a img{
     margin-left: 1rem;
 }
 
 /* ---------------------hero-box right side css style start----------  */
 
 
-.main-hero-section .right-hero-site{
+.main-hero-section .right-hero-side{
     width: 50%;
     height: 100vh;
     background-color: var(--background-color);
@@ -193,7 +199,7 @@ header .right-site-manu .sub-manu a li:hover{
     border-radius: 30px 0px 0 95px;
 }
 
-.main-hero-section .right-hero-site img{
+.main-hero-section .right-hero-sdte img{
     width: 100rem;
     height: 90rem;
 }
@@ -435,32 +441,35 @@ footer .footer-div-5{
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
+    
 }
 .icon-bar a{
-    width: 18rem;
+    width: 17rem;
+    border-radius: 3px;
     background: #f52121;
     color: rgb(1, 0, 0);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.7rem;
-    padding: 0.7rem;
+    padding: 0.9rem;
     transition: all 0.5s linear;
     transform: translateX(-14.5rem);
 }
 .icon-bar a:hover{
     transform: translateX(0);
+
 }
-icon-bar a.fab{
-    padding-left: 1rem
+.icon-bar a.fab{
+    padding-left:1rem;
     font-size: 3rem;
     animation: letszoom 3s linear alternate reverse infinite;
 }
 @keyframes letszoom{
     form{
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
     to{
-        transform: scale(1);
+        transform: scale(0.9);
     }
 }
