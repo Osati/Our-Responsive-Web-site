@@ -1,9 +1,10 @@
+
 @media(max-width:770px){
      header,
     .goals,
     .main-hero-section,
     .common-section{
-        padding: 0 5rem;
+        padding: 0 3rem;
     }
     header nav{
         padding-top: 1rem;
@@ -14,11 +15,59 @@
     header nav .left-side-manu{
         width: 100%;
         display: block;
+        position: relative;
         order: 2;
     }
-    header nav .left-side-manuimg{
+    
+    header .right-side-manu{
         width: 100%;
         display: block;
     }
-   
+      
+    
+    /* -----hero-section-css------ */
+
+    .main-hero-section{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: column;
+    }
+    .main-hero-section .left-hero-side{
+        width: 100%;
+        display: block;
+        order: 2;
+    }
+    .main-hero-section .left-hero-side h1{
+        width: 100%;
+        display: block;
+        font-size: 4rem;
+    }
+    .main-hero-section .left-hero-side p{
+        width: 80%;
+        display: block;
+    }
+    .main-hero-section .right-hero-side{
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: transparent;
+    }
+    
+    .main-hero-section .right-hero-side img{
+        width: 100%;
+        height: inherit;
+        display: block;
+    } 
+    .common-section{
+        display: block;
+    }
+    .common-section .left-side{
+        width: 100%;
+        display: block;
+        order: 2;
+    }
+    
 }

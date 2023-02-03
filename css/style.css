@@ -73,12 +73,8 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 12rem;
-}
-.logo-div img{
-    width: 8rem;
-    height: 5.5rem;
 }
 
 header nav .left-side-manu{
@@ -89,7 +85,6 @@ header nav .left-side-manu{
     background-color: #e2efff;
 }
 header nav .left-side-manu .sub-manu{
-    height: inherit;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -120,6 +115,7 @@ header .right-side-manu{
     width: 50%;
     display: flex;
     justify-content:end;
+    align-items: flex-end;
 }
 header .right-side-manu .sub-manu{
     width: 100%;
@@ -129,23 +125,25 @@ header .right-side-manu .sub-manu{
     justify-content: flex-end;
 }
 header .right-side-manu .sub-manu a{
-    margin-right: 2rem;
-    padding: 0.7rem 2rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    margin-right:3rem;
+    padding: 0.5rem 2rem;
+    background: #e2efff;
     border-radius: 10px;
     font-size: 2rem;
     cursor: pointer;
     position: relative;
     z-index: 9;
 }
-header .right-side-manu .sub-manu button{
-    padding: 0.5rem 2rem;
-    background-color: var(--button-background);
-    position: relative;
-    z-index: 9;
-}
+
 header .right-side-manu .sub-manu button:hover{
+    color: rgb(9, 11, 13);
+    background: #f9f9fa;
+}
+header .right-side-manu .sub-manu a:hover{
     color: rgb(7, 6, 6);
+    background: #f8f9fa;
+
+     
 }
 header .right-side-manu .sub-manu a li:hover{
     color: rgb(7, 6, 6);
@@ -156,7 +154,7 @@ header .right-side-manu .sub-manu a li:hover{
 .main-hero-section{
     padding: 0 10rem;
     width: 100%;
-    height: 100%;
+    height:50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +173,7 @@ header .right-side-manu .sub-manu a li:hover{
 
 }
 .main-hero-section .left-hero-side p{
-    width: 35rem;
+    width: 40rem;
     margin-bottom: 6rem;
     
 }
@@ -188,7 +186,6 @@ header .right-side-manu .sub-manu a li:hover{
 
 .main-hero-section .right-hero-side{
     width: 50%;
-    height: 100vh;
     background-color: var(--background-color);
     position: absolute;
     display: flex;
@@ -199,49 +196,36 @@ header .right-side-manu .sub-manu a li:hover{
     border-radius: 30px 0px 0 95px;
 }
 
-.main-hero-section .right-hero-sdte img{
-    width: 100rem;
-    height: 90rem;
-}
-
-
 /*----------------- our section-two left-side css start--------- */
 
 .common-section{
     width: 100%;
-    height: 70rem;
+    height: 90vh;
+    background: #578151;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 2rem;
-    padding: 0 2rem;
+    margin: 2.5rem 0rem;
     padding: 0 10rem;
 }
 .common-section .left-side{
-    width: inherit;
-    height: inherit;
+    width: 98%;
+    height: 90%;
+    border: 1px solid black;
 
-}
-.common-section .left-side figure{
-    width: 15rem;
-    height: 65rem;
-    background: #e2efff;
-    border-radius: 20px;
 }
    
 .common-section .left-side img{
-    width: 40rem;
-    height: 60rem;
+    width: inherit;
+    height: initial;
     border-radius: 2rem;
-    margin-left: 7rem;
-    margin-top: 2.5rem;
     opacity: 0.7;
 }
 
 /*----------------- our section-two right-side css start--------- */
 
 .common-section .right-side{
-    width: inherit;
-    height: 64rem;
+    width: 98%;
+    height: 90%;
     background-color: #f1f7ff;
     border-radius: 10px;
     display: flex;
@@ -342,16 +326,15 @@ header .right-side-manu .sub-manu a li:hover{
 
 /* ----------start our forth section css--------- */
 
-#forth-section .right-side h2{
-    margin-top: 8rem;
+
+/* #forth-section .right-side{
+    width: inherit;
+    height: 90%;
     left: 0;
-   
-}
-#forth-section .right-side p{
-    margin-top: 3rem;
-    left: 0;
-   
-}
+} */
+
+
+
 #forth-section .left-side{
     text-align: center;
 }

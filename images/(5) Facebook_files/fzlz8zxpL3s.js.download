@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("StoriesIsCommentPreviewsEnabled.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("146"))!=null?a:!1}};g["default"]=a}),98);
+__d("StoriesIsContextualReplyDisabled.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("457"))!=null?a:!1}};g["default"]=a}),98);
