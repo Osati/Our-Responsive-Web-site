@@ -3,7 +3,9 @@
      header,
     .goals,
     .main-hero-section,
-    .common-section{
+    .common-section,
+    #five-section,
+    footer{
         padding: 0 3rem;
     }
     header nav{
@@ -17,6 +19,15 @@
         display: block;
         position: relative;
         order: 2;
+    }
+    header nav .left-side-manu .sub-manu a{
+        width: 50%;
+        display: block;
+    }
+    header nav .left-side-manu .sub-manu a li{
+        width: 100%;
+        font-size: 1.5rem;
+        display: block;
     }
     
     header .right-side-manu{
@@ -131,4 +142,25 @@
         display: block;
 
     }
+
+
+        /* -------Five-section---------- */
+     #five-section .right-side{
+        width: 100%;
+        margin-left: 3rem;
+    }
+
+        /*---------- Footer style-------     */
+    footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer .footer-manu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 2rem;
+    }
+
 }

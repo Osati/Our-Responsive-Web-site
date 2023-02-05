@@ -70,31 +70,37 @@ header{
     padding: 0 10rem;
 }
 header nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    position: relative;
     align-items: center;
-    width: 90%;
     height: 12rem;
+    
 }
 
 header nav .left-side-manu{
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
     background-color: #e2efff;
+    
 }
 header nav .left-side-manu .sub-manu{
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: flex-end;
+    overflow: hidden;
 }
 header nav .left-side-manu .sub-manu a{
     margin-right: 2rem;
+
 }
 header nav .left-side-manu .sub-manu a li{
    font-size: 2rem;
-   line-height: 3.6rem;
+   line-height: 2rem;
    text-transform: capitalize;
    transition: all 0.2s;
 }
@@ -121,11 +127,11 @@ header .right-side-manu .sub-manu{
     width: 100%;
     height: inherit;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-end;
 }
 header .right-side-manu .sub-manu a{
-    margin-right:3rem;
+    right: 0;
     padding: 0.5rem 2rem;
     background: #e2efff;
     border-radius: 10px;
@@ -359,11 +365,11 @@ header .right-side-manu .sub-manu a li:hover{
 /* ----------start our forth section css--------- */
 
 
-/* #forth-section .right-side{
+#forth-section .right-side{
     width: inherit;
     height: 90%;
     left: 0;
-} */
+}
 
 
 
@@ -381,32 +387,40 @@ header .right-side-manu .sub-manu a li:hover{
     width: 90%;
 }
 
+
 /* --------- five-section css start------ */
 #five-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    
 
 }
 #five-section .right-side{
+    width: 100%;
+    margin-left: 5rem;
     display: grid;
-    grid-template-rows: 0.5fr; 
+    grid-template-rows: 1fr; 
+    overflow: hidden;
 }
 
 #five-section .right-side-top{
-    margin-top: 6rem;
-    margin-left: 5rem;
-    width: 60%;
+    margin-top: 4rem;
+    width:90%;
 }
 
 #five-section .right-side-top h3{
     font-size: 30px;
     font-height: 500;
     line-height: 5rem;
+    margin-left: 5rem;
     
 }
 .right-side-bottom{
-    margin-top: 6rem;
+    width: 100%;
+    margin-top: 3rem;
+    overflow: hidden;
 }
 .right-side-bottom h4{
     margin-left: 5rem;
@@ -414,13 +428,16 @@ header .right-side-manu .sub-manu a li:hover{
   
 }
 .right-side-bottom p{
+    width: 100%;
     line-height: 3rem;
+    overflow: hidden;
 }
 
 
 .fa{
     color: #f6480f;
 }
+
 
 /* --------- 6th footer-section css start------ */
 
